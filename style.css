@@ -1,0 +1,36 @@
+/* below I used the * selector to make the background color change, not sure if thats the best way.*/
+* {
+    background-color:rgb(251, 209, 158);
+}
+img {
+    height: auto;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title.heading {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(120, 49, 5);
+    color: bisque;
+    font-size: 50px;
+}
+.sub.heading {
+    text-align: center;
+    color: bisque;
+    background-color: rgb(120, 49, 5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.recipe-list {
+    text-align: left;
+    background-color:rgb(115, 64, 1)
+}
+.recipes {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
