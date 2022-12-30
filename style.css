@@ -9,28 +9,50 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+.heading{
+    text-align: center;
+    color: bisque;
+    background-color: rgb(120, 49, 5);
+}
 .title.heading {
     font-weight: bold;
-    text-align: center;
-    background-color: rgb(120, 49, 5);
-    color: bisque;
     font-size: 50px;
 }
 .sub.heading {
-    text-align: center;
-    color: bisque;
-    background-color: rgb(120, 49, 5);
     margin-top: 40px;
     margin-bottom: 40px;
+    font-size: 30px;
 }
-.recipe-list {
-    text-align: left;
-    background-color:rgb(115, 64, 1)
+.small.heading{
+margin-right: 88%;
+margin-left: 3%;
+font-size: 22px;
+margin-top: 50px;
 }
-.recipes {
+.ul.recipes {
     text-align: center;
     list-style-position: inside;
     font-size: 25px;
     font-weight: bold;
     margin-top: 15px;
   }
+  .lists {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight:550
+  }
+  
+.res-disc {
+    font-weight: 550;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 8%;
+    text-align: center;
+}
+button {
+    background-color: rgb(120, 49, 5);
+    color: bisque;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
